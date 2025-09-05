@@ -1,10 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://b03fsfwsh71hy"]
+[gd_scene load_steps=4 format=3 uid="uid://b03fsfwsh71hy"]
 
 [ext_resource type="Texture2D" uid="uid://oom6hbsjdid0" path="res://bar-sprite-sheet.png" id="1_jxero"]
+[ext_resource type="Script" uid="uid://dqn56t5o5b6qy" path="res://Scenes/ui.gd" id="1_qdvrb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qdvrb"]
 atlas = ExtResource("1_jxero")
-region = Rect2(-0.06, 384, 128, 128)
+region = Rect2(0, 0, 128, 128)
 filter_clip = true
 
 [node name="Control" type="Control"]
@@ -15,6 +16,7 @@ anchor_bottom = 1.0
 offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_qdvrb")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1

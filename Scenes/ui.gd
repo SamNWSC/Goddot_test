@@ -1,11 +1,11 @@
-extends Node
+extends Control
 @onready var crosshair = $Crosshair
 var atlas_tex : AtlasTexture
 var frame = 0
 var frame_size = Vector2(128, 128)
 var frames_per_row = 5   
 var total_frames = 25    
-var frame_time = 0.1     # seconds per frame
+var frame_time = 0.08     # seconds per frame
 var time_accum = 0.0
 
 func _ready():

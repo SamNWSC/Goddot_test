@@ -23,7 +23,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.318174, 0.356799, 0.201386, 1)
+color = Color(0.317647, 0.356863, 0.2, 0)
 
 [node name="GridContainer" type="GridContainer" parent="."]
 layout_mode = 1

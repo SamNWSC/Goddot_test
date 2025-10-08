@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b03fsfwsh71hy"]
 
 [ext_resource type="Texture2D" uid="uid://oom6hbsjdid0" path="res://bar-sprite-sheet.png" id="1_jxero"]
-[ext_resource type="Script" uid="uid://dqn56t5o5b6qy" path="res://Scenes/ui.gd" id="1_qdvrb"]
+[ext_resource type="Script" path="res://Scenes/ui.gd" id="1_qdvrb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qdvrb"]
 atlas = ExtResource("1_jxero")

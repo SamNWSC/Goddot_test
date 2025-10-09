@@ -8,7 +8,7 @@ atlas = ExtResource("1_jxero")
 region = Rect2(0, 0, 128, 128)
 filter_clip = true
 
-[node name="Control" type="Control"]
+[node name="Control2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

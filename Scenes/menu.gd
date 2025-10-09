@@ -2,7 +2,7 @@ extends Control
 @onready var subtitle = $Map/Subtitle
 var atlas_tex : AtlasTexture
 var frame = 0
-var frame_size = Vector2(128, 128)
+var frame_size = Vector2(800, 450)
 var frames_per_row = 1   
 var total_frames = 2    
 var frame_time = 0.5     # seconds per frame

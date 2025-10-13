@@ -34,4 +34,4 @@ func _update_frame():
 
 
 func _on_button_pressed():
-	print("Stop pressing me")
+	get_tree().change_scene_to_file("res://Scenes/Game.tscn")
